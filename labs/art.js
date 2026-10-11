@@ -136,13 +136,13 @@ const scenes = {
     <path class="rule" d="M108 390h384"/>
     <rect class="stroke" x="112" y="414" width="16" height="11" rx="2"/><path class="stroke" d="M110 411h20"/><text class="t-sm txt" x="156" y="424">Archive</text>
     <path d="M112 452h18m-15 0 2 19h10l1-19m-10 6v8m6-8v8m-8-12 2-6h7l2 6" fill="none" stroke="#f85149" stroke-width="1.4"/><text class="t-sm bad" x="156" y="466">Delete</text>
-    <text class="t-xs accent" x="530" y="132">Project details</text><path class="lead" d="M516 134h-22l-18 16"/>
-    <text class="t-xs accent" x="530" y="292">Session controls</text><path class="lead" d="M516 294h-22l-18 10"/>
+    <text class="t-xs accent" x="530" y="132">Project details</text><path class="lead" d="M516 134h-22l-12 26"/>
+    <text class="t-xs accent" x="530" y="211">Session controls</text><path class="lead" d="M516 213h-22l-12-6"/>
   `),
 
   appUsage: () => svg(410, "Plan and session usage details in the Copilot app", `
     <rect class="panel" x="76" y="20" width="448" height="318" rx="12"/>
-    <text class="t-sm mut" x="100" y="54">Plan</text><text class="t-sm txt" x="254" y="54">Usage hidden</text>
+    <text class="t-sm mut" x="100" y="54">Plan</text><text class="t-sm txt" x="254" y="54">GitHub Copilot Pro+</text>
     <path class="rule" d="M96 72h408"/>
     <text class="t-sm mut" x="100" y="103">Session</text><text class="t-sm txt" x="254" y="103">11.4 AI credits</text>
     <path class="rule" d="M96 122h408"/>
@@ -158,9 +158,9 @@ const scenes = {
     <text class="t-sm txt" x="254" y="254">16%</text><text class="t-xs mut" x="480" y="254" text-anchor="end">400K</text>
     <path class="rule" d="M96 274h408"/>
     <text class="t-sm txt" x="100" y="310">View usage and plan...</text>
-    <text class="t-xs accent" x="540" y="96">Plan and credits</text><path class="lead" d="M526 98h-20l-18 8"/>
-    <text class="t-xs accent" x="540" y="220">Tokens and context</text><path class="lead" d="M526 222h-20l-18 8"/>
-    <circle class="card" cx="458" cy="372" r="20"/><path class="stroke" d="M447 365c7-5 16-5 23 0-7 8-16 8-23 0m4-3 16 17"/>
+    <text class="t-xs accent" x="540" y="58">Plan and credits</text><path class="lead" d="M526 60h-20l-140-6"/>
+    <text class="t-xs accent" x="540" y="220">Tokens and context</text><path class="lead" d="M526 222h-20l-22 32"/>
+    <circle class="card" cx="458" cy="372" r="20"/><path class="usage-ring" d="M458 353a19 19 0 0 1 19 19"/>
     <circle class="send" cx="506" cy="372" r="20"/><path class="sendGlyph" d="M506 382v-19m-6 6 6-6 6 6"/>
     <text class="t-xs accent" x="284" y="369">Open usage next to Send</text><path class="lead" d="M418 371h18"/>
   `),
@@ -322,6 +322,62 @@ const scenes = {
     <text class="t-xs accent" x="230" y="170">#13</text>
     <text class="t-sm txt" x="230" y="188">Review screen</text>
     <text class="t-xs mut" x="36" y="278">Drop a card into a lane and the app opens a session with that issue already loaded.</text>
+  `),
+
+  pagesDeploy: () => svg(288, "A merged pull request triggers a GitHub Actions workflow and publishes the space quiz to GitHub Pages", `
+    ${chrome(20, 18, 600, "space-quiz · GitHub Pages")}
+    <rect class="panel" x="20" y="44" width="600" height="226"/>
+    <text class="t-xs mut" x="34" y="68">GITHUB REPOSITORY</text>
+    <text class="t-xs mut" x="230" y="68">ACTIONS WORKFLOW</text>
+    <text class="t-xs mut" x="442" y="68">LIVE SITE</text>
+    <rect class="card" x="34" y="78" width="164" height="138" rx="9"/>
+    <text class="t-sm txt" x="48" y="101">space-quiz</text>
+    <path class="rule" d="M48 109h136"/>
+    <rect class="stroke" x="49" y="117" width="9" height="10" rx="2"/>
+    <text class="t-xs mut" x="66" y="126">README.md</text>
+    <rect class="stroke" x="49" y="136" width="9" height="10" rx="2"/>
+    <text class="t-xs mut" x="66" y="145">index.html</text>
+    <rect class="stroke" x="49" y="155" width="9" height="10" rx="2"/>
+    <text class="t-xs mut" x="66" y="164">.github/workflows</text>
+    <rect class="chip alt" x="48" y="178" width="136" height="24" rx="7"/>
+    <circle class="ok-fill" cx="61" cy="190" r="4"/>
+    <path class="tick" d="m59 190 1.5 1.5 2.8-3"/>
+    <text class="t-xs ok" x="71" y="194">Pull request merged</text>
+    <path class="drag" d="M201 147h20m-7-6 7 6-7 6"/>
+    <rect class="card" x="230" y="78" width="184" height="138" rx="9"/>
+    <text class="t-sm txt" x="244" y="101">Deploy website</text>
+    <rect class="card sel" x="242" y="112" width="160" height="25" rx="6"/>
+    <circle class="ok-fill" cx="256" cy="124.5" r="4"/>
+    <path class="tick" d="m254 124.5 1.5 1.5 2.8-3"/>
+    <text class="t-xs txt" x="267" y="128">Build website</text>
+    <rect class="card" x="242" y="142" width="160" height="25" rx="6"/>
+    <circle class="ok-fill" cx="256" cy="154.5" r="4"/>
+    <path class="tick" d="m254 154.5 1.5 1.5 2.8-3"/>
+    <text class="t-xs txt" x="267" y="158">Upload artifact</text>
+    <rect class="card sel" x="242" y="172" width="160" height="25" rx="6"/>
+    <circle class="ok-fill" cx="256" cy="184.5" r="4"/>
+    <path class="tick" d="m254 184.5 1.5 1.5 2.8-3"/>
+    <text class="t-xs txt" x="267" y="188">Deploy to Pages</text>
+    <text class="t-xs mut" x="244" y="209">pages-build-deployment · passed</text>
+    <path class="drag" d="M417 147h20m-7-6 7 6-7 6"/>
+    <rect class="card" x="442" y="78" width="160" height="138" rx="9"/>
+    <rect class="win" x="450" y="86" width="144" height="21" rx="5"/>
+    <circle class="dot red" cx="460" cy="96.5" r="2.5"/>
+    <circle class="dot amber" cx="469" cy="96.5" r="2.5"/>
+    <circle class="dot green" cx="478" cy="96.5" r="2.5"/>
+    <text class="t-xs mut" x="485" y="100">yourname.github.io</text>
+    <rect class="panel" x="450" y="112" width="144" height="96" rx="5"/>
+    <circle class="sw alt" cx="522" cy="139" r="13"/>
+    <circle class="sw" cx="522" cy="139" r="5"/>
+    <text class="t-xs accent" x="522" y="168" text-anchor="middle">SPACE QUIZ</text>
+    <text class="t-xs mut" x="522" y="184" text-anchor="middle">/space-quiz/</text>
+    <rect class="chip sel" x="479" y="190" width="86" height="13" rx="6"/>
+    <text class="t-xs ok" x="522" y="200" text-anchor="middle">SITE IS LIVE</text>
+    <text class="t-xs ok" x="34" y="250">Merged PR</text>
+    <path class="rule" d="M91 246h58"/>
+    <text class="t-xs mut" x="160" y="250">workflow succeeds</text>
+    <path class="rule" d="M270 246h58"/>
+    <text class="t-xs mut" x="339" y="250">Pages URL reported</text>
   `),
 
   cliWorktree: () => svg(180, "Terminal output from the slash worktree command creating an isolated checkout", `
