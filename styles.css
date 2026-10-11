@@ -279,6 +279,7 @@ svg.spark { width: 1em; height: 1em; fill: currentColor; display: block; }
 .art .send { fill: var(--purple); }
 .art .sendGlyph { stroke: #fff; stroke-width: 1.6; fill: none; stroke-linecap: round; }
 .art .stroke { fill: none; stroke: var(--muted); stroke-width: 1.2; }
+.art .usage-ring { fill: none; stroke: var(--purple-bright); stroke-width: 2; stroke-linecap: round; }
 .art .col { fill: var(--surface-2); stroke: var(--border-soft); }
 .art .col.drop { fill: color-mix(in srgb, var(--purple) 10%, var(--surface-2)); stroke: var(--purple); stroke-dasharray: 5 4; }
 .art .card.ghost { fill: transparent; stroke-dasharray: 4 3; }
