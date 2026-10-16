@@ -12,7 +12,7 @@ Choose a product from the switcher in the header. Each product has its own maint
 | --- | --- |
 | **Desktop App** | Baseline storyline: sessions, integrated browser, element picker, `/init`, GitHub issues and PRs, Plan mode, Changes tab, Automations, `/remote`, Canvas, and GitHub Pages deployment |
 | **CLI** | `/model`, `/diff` on every change, `/init`, publishing by prompt or by hand, `c` to add an issue to chat, parallel sessions via the left-arrow side panel, `/worktree`, `!` shell commands, Plan mode, `/context`, `/resume` and `copilot --resume`, optional `/remote`, `/pr create`, `/pr agentmerge`, then `/delegate` |
-| **VS Code** | Built-in Copilot plus the GitHub Pull Requests and Issues extension, integrated browser with element picking, `/init` custom instructions, bottom-right context inspection, tests before Git init, Git integration publish and diffs, Plan mode, GitHub MCP, `+` new sessions, PR creation/review/merge |
+| **VS Code** | Built-in Copilot plus the GitHub Pull Requests and Issues extension, integrated browser with element picking, `/init` custom instructions, bottom-right context inspection, tests before Git init, Git integration publish and diffs, `/plan` prompts, GitHub MCP, `+` new sessions, PR creation/review/merge |
 
 The shared model preference order is **GPT-6-Luna** (recommended), **Auto** (balanced backup), then [your choice from the active models list](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing).
 
