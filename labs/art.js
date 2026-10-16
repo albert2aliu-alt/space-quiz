@@ -412,29 +412,27 @@ const scenes = {
       <text class="t-xs mut" x="212" y="244">Comment only what is genuinely surprising.</text>
     </g>
   `),
-  vscodeCloud: () => svg(260, "The Copilot Chat harness picker in VS Code switching from Local to Cloud", `
+  vscodeCloud: () => svg(260, "The VS Code harness picker with Copilot selected and Cloud available", `
     ${chrome(20, 18, 600, "Copilot Chat")}
     <rect class="panel" x="20" y="44" width="600" height="198"/>
     <rect class="bubble" x="300" y="60" width="304" height="30" rx="10"/>
     <text class="t-sm txt" x="316" y="80">Add three new colour themes</text>
     <rect class="card" x="36" y="104" width="248" height="52" rx="10"/>
-    <text class="t-sm txt" x="52" y="126">Working in the cloud…</text>
-    <text class="t-xs mut" x="52" y="146">Follow the session on GitHub</text>
+    <text class="t-sm txt" x="52" y="126">Copilot is selected</text>
+    <text class="t-xs mut" x="52" y="146">Choose Cloud to delegate</text>
     <rect class="input" x="36" y="188" width="568" height="34" rx="9"/>
     <text class="t-sm mut" x="54" y="210">Ask Copilot</text>
     <rect class="chip sel" x="486" y="196" width="102" height="20" rx="10"/>
-    <text class="t-xs accent" x="500" y="210">Harness ⌄</text>
+    <text class="t-xs accent" x="500" y="210">Copilot ⌄</text>
     <rect class="menu" x="396" y="60" width="192" height="126" rx="9"/>
-    <text class="t-xs mut" x="412" y="80">Harness</text>
-    <text class="t-xs mut" x="412" y="102">Copilot</text>
-    <rect class="card" x="404" y="108" width="176" height="20" rx="6"/>
-    <text class="t-xs txt" x="418" y="122">Local</text>
-    <rect class="card sel" x="404" y="130" width="176" height="20" rx="6"/>
-    <text class="t-xs accent" x="418" y="144">Cloud</text>
-    <text class="t-xs ok" x="568" y="144" text-anchor="end">✓</text>
-    <path class="rule" d="M404 158h176"/>
-    <text class="t-xs mut" x="418" y="174">Claude</text>
-    <text class="t-xs mut" x="500" y="174">Codex</text>
+    <rect class="card sel" x="404" y="66" width="176" height="20" rx="6"/>
+    <text class="t-xs accent" x="418" y="80">Copilot</text>
+    <text class="t-xs ok" x="568" y="80" text-anchor="end">✓</text>
+    <text class="t-xs mut" x="418" y="102">Local</text>
+    <text class="t-xs mut" x="418" y="124">Cloud</text>
+    <path class="rule" d="M404 138h176"/>
+    <text class="t-xs mut" x="418" y="156">Claude</text>
+    <text class="t-xs mut" x="418" y="178">Codex</text>
   `)
 };
 
