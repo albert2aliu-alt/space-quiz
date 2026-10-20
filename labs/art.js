@@ -161,8 +161,9 @@ const scenes = {
     <text class="t-xs accent" x="540" y="58">Plan and credits</text><path class="lead" d="M526 60h-20l-140-6"/>
     <text class="t-xs accent" x="540" y="220">Tokens and context</text><path class="lead" d="M526 222h-20l-22 32"/>
     <circle class="card" cx="458" cy="372" r="20"/><path class="usage-ring" d="M458 353a19 19 0 0 1 19 19"/>
-    <circle class="send" cx="506" cy="372" r="20"/><path class="sendGlyph" d="M506 382v-19m-6 6 6-6 6 6"/>
-    <text class="t-xs accent" x="284" y="369">Open usage next to Send</text><path class="lead" d="M418 371h18"/>
+    <g class="alt-stroke" stroke-linecap="round" stroke-linejoin="round"><rect x="502" y="360" width="8" height="14" rx="4"/><path d="M498 368v2a8 8 0 0 0 16 0v-2M506 378v6m-4 0h8"/></g>
+    <circle class="send" cx="554" cy="372" r="20"/><path class="sendGlyph" d="M554 382v-19m-6 6 6-6 6 6"/>
+    <text class="t-xs accent" x="404" y="369" text-anchor="end">Open usage near the microphone</text><path class="lead" d="M418 371h18"/>
   `),
 
   appChanges: () => svg(250, "The Changes tab in the app flyout showing a file diff", `
